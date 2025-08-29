@@ -13,4 +13,13 @@ body {
 
 #second-paragraph {
     background-color: brown;
+    color:white
+}
+
+#span-1 {
+    color:rgb(10, 42, 251)
+}
+
+#span-2{
+    color: chocolate;
 }

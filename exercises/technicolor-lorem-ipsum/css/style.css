@@ -1,50 +1,50 @@
- * {
-    box-sizing: border-box;
+* {
+box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+margin: 0px;
+font-family: sans-serif;
 }
 
 #first-paragraph {
-    background-color: aqua;
+background-color: aqua;
 }
 
 #second-paragraph {
-    background-color: aquamarine;
+background-color: aquamarine;
 }
 
 #third-paragraph {
-    background-color: burlywood;
+background-color: burlywood;
 }
 
 #span-1 {
-    color: blue;
-    background-color: yellow;
+color: blue;
+background-color: yellow;
 }
 
 #span-2 {
-    color: red;
-    background-color: chartreuse;
+color: red;
+background-color: chartreuse;
 }
 
 #span-3 {
-    color: orange;
-    background-color: blueviolet;
+color: orange;
+background-color: blueviolet;
 }
 
 #span-4 {
-    color: green;
-    background-color: magenta;
+color: green;
+background-color: magenta;
 }
 
 #span-5 {
-    color: yellow;
-    background-color: black;
+color: yellow;
+background-color: black;
 }
 
 #span-6 {
-    color: rebeccapurple;
-    background-color: plum;
+color: rebeccapurple;
+background-color: plum;
 }
