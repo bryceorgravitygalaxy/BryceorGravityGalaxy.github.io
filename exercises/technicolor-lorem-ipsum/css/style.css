@@ -1,0 +1,50 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    background-color: aqua;
+}
+
+#second-paragraph {
+    background-color: aquamarine;
+}
+
+#third-paragraph {
+    background-color: burlywood;
+}
+
+#span-1 {
+    color: blue;
+    background-color: yellow;
+}
+
+#span-2 {
+    color: red;
+    background-color: chartreuse;
+}
+
+#span-3 {
+    color: orange;
+    background-color: blueviolet;
+}
+
+#span-4 {
+    color: green;
+    background-color: magenta;
+}
+
+#span-5 {
+    color: yellow;
+    background-color: black;
+}
+
+#span-6 {
+    color: rebeccapurple;
+    background-color: plum;
+}
