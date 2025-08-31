@@ -1,0 +1,43 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+}
+
+#span-2 {
+    font-style: italic;
+}
+
+#big-paragraph {
+    font-size: 5vw;
+}
+
+#ff-1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+#ff-2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+#ff-3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+
+#ff-4 {
+    text-align: right
+}
+#alignment-test {
+    width: 100px;
+    text-align: right;
+}

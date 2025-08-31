@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#trial-1 {
+    color: green;    
+}
+
+#lorem-ipsum {
+    color: #F711F7;
+}
+
+#repellat {
+    color:#F711F7;
+}
+
+#dolorsit {
+    color: red;
+}
+
+#dolorem-nam {
+    color: goldenrod;
+}
+
+#sequiquam {
+    color: blue;
+}
+
+#trial-4 {
+    background-color: skyblue;
+}
+
+#impedit {
+    background-color: yellow;
+}
+
+#nullainvero {
+    font-weight: bolder;
+}
+
+#impedit-ab {
+    font-weight: bolder;
+}
+
+#vero-soluta {
+    font-weight: bolder;
+}
+
+#loremipsumdolor {
+    text-decoration: underline;
+}
+
+#repellat-eaque {
+    text-decoration: underline;
+}
+
+#fake-heading {
+    font-size: 36px;
+}
+
+#eyebrow {
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#fake-heading-2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+#fake-subheading {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
