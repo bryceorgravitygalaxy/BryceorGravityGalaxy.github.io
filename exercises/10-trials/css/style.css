@@ -63,19 +63,20 @@ body {
     font-size: 36px;
 }
 
+#trial-10 {
+    text-align: center;
+}
+
 #eyebrow {
     font-size: 12px;
     font-weight: bolder;
-    text-align: center;
 }
 
 #fake-heading-2 {
     font-size: 48px;
-    text-align: center;
 }
 
 #fake-subheading {
     font-size: 24px;
     font-style: italic;
-    text-align: center;
 }
