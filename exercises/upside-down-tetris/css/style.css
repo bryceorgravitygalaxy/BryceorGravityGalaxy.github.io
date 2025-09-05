@@ -1,0 +1,61 @@
+* {
+     box-sizing: border-box;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px inset;
+}
+
+.red {
+    background-color: red;
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(143, 0, 0);
+    border-image: initial;
+}
+
+.blue {
+    background-color: rgb(34, 0, 255);
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(4, 0, 85);
+    border-image: initial;
+}
+
+.orange {
+    background-color: rgb(255, 157, 0);
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(111, 82, 0);
+    border-image: initial;
+}
+
+.purple {
+    background-color: rgb(187, 0, 205);
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(114, 1, 106);
+    border-image: initial;
+}
+
+
+#div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background-color: rgb(131, 131, 131);
+    font-size: 0px;
+}
+
+#body {
+    font-family: sans-serif;
+    margin: 0px;
+}
