@@ -11,10 +11,15 @@ box-sizing: border-box;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#bulletin-board {
+    width: 910px;
+}
+
 .post-it {
     display: inline-block;
     text-align: center;
-    width: 200px;
+
+    width: 250px;
     height: 200px;
     background-color: rgb(157, 157, 157);
     box-shadow: 1px 5px 10px;
