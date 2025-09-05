@@ -12,7 +12,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #bulletin-board {
-    width: 910px;
+    width: 1510px;
 }
 
 .post-it {
@@ -20,6 +20,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
     width: 250px;
+    margin-inline: 90px;
     height: 200px;
     background-color: rgb(157, 157, 157);
     box-shadow: 1px 5px 10px;
