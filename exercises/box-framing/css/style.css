@@ -14,12 +14,15 @@ body {
     display: inline-block;
     background-color: rgb(255, 255, 255);
     align-content: center;
+    text-align: center;
     vertical-align: top;
+    margin-inline: 110px;
+
 }
 
 .square-photo {
-    background-color: rgb(95, 57, 2);
-    border-width: 35px;
+    background-color: rgb(157, 94, 5);
+    border-width: 25px;
     border-style: inset;
     border-color: rgb(165, 99, 0);
     box-shadow: 2px 20px 35px;
@@ -42,11 +45,11 @@ body {
 }
 
 .large-photo {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(127, 127, 127);
     border-width: 25px;
     border-style: inset;
-    border-color: rgb(85, 85, 85);
+    border-color: rgb(210, 204, 204);
     box-shadow: 2px 20px 35px;
-    border-radius: 0px;
+    border-radius: 40px;
 }
 
