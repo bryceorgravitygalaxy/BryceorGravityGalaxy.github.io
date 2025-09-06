@@ -1,0 +1,47 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.block {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px inset;
+}
+
+.square-photo {
+    background-color: rgb(255, 255, 255);
+    border-width: 35px;
+    border-style: inset;
+    border-color: rgb(165, 99, 0);
+    border-image: initial;
+}
+
+.tall-photo {
+    background-color: rgb(255, 255, 255);
+    border-width: 25px;
+    border-style: inset;
+    border-color: rgb(165, 99, 0);
+    border-image: initial;
+}
+
+.wide-photo {
+    background-color: rgb(255, 255, 255);
+    border-width: 15px;
+    border-style: inset;
+    border-color: rgb(139, 139, 139);
+    border-image: initial;
+}
+
+.large-photo {
+    background-color: rgb(255, 255, 255);
+    border-width: 15px;
+    border-style: inset;
+    border-color: rgb(255, 208, 0);
+    border-image: initial;
+}
+

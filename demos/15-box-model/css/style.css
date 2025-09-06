@@ -1,0 +1,37 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: orangered;
+}
+
+div {
+    border-color: blue;
+    border-radius: 26%;
+    border-bottom: dashed 20px red;
+    border-left: dotted 15px goldenrod;
+    border-top: dashed 15px orange;
+    border-right: dotted 15px yellow;
+    margin: 12px 25px 38px;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+img {
+    border-radius: 65%;
+    border-color: blue;
+    border-width: 17px;
+}
+
+#spawn {
+    border-width: 17px;
+}
