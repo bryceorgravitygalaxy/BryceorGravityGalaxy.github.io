@@ -9,11 +9,16 @@ font-family: sans-serif;
 }
 
 #sidebar {
-background-color: #333333;
-color: white;
-width: 500px;
-min-height: 100vh;
-padding: 24px;
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+
+.chapter {
+    font-weight: bolder;
 }
 
 .edit {
@@ -21,13 +26,14 @@ color: orange;
 font-style: italic;
 }
 
+
 #chapter {
+font-weight: bold;
 font-size: 24px;
 }
 
-#warning {
+.chapter.edit {
 color: red;
-font-weight: bold;
-font-style: italic;
-font-size: 24px;
 }
+
+
