@@ -36,7 +36,7 @@ font-family: sans-serif;
     font-size: 24px;
 }
 
-#sidebar .chapter + .edit {
+#sidebar .chapter.edit {
     font-weight: bolder;
     color: red
 
