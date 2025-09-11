@@ -19,7 +19,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     text-align: center;
 
-    width: 250px;
+    width: 320px;
+    margin: 150px;
+    padding: 40px 10px;
     margin-inline: 90px;
     height: 200px;
     background-color: rgb(157, 157, 157);
