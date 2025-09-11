@@ -65,6 +65,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .silver {
     background-color: rgb(217, 212, 224);
     border-width: 40px;
+    padding: 20px;
 }
 
 .gray {
