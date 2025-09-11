@@ -34,7 +34,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .blue {
     background-color: rgb(117, 99, 233);
-    border-width: 50px;
+    border-width: 20px;
 }
 
 .green {
@@ -46,24 +46,25 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .yellow {
     background-color: rgb(253, 215, 0);
     border-width: 40px;
-    padding: 30px
+    padding: 10px
 }
 
 .cyan {
     background-color: rgb(0, 213, 255);
     border-width: 40px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .lavender {
     background-color: rgb(247, 156, 255);
     border-width: 40px;
-    padding: 50px;
+    padding: 10px;
 }
 
 .silver {
     background-color: rgb(217, 212, 224);
     border-width: 40px;
+    padding: 10px
 }
 
 .gray {
