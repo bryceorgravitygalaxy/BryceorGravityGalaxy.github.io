@@ -1,0 +1,21 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.button {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(150, 187, 255);
+    color: rgb(90, 98, 255);
+    border: 16px solid;
+    border-radius: 29px;
+    border-top-width: 109px;
+    margin: 37px 30px 150px;
+    min-width: 10px;
+    padding: 110px 160px 9px;'
+}
