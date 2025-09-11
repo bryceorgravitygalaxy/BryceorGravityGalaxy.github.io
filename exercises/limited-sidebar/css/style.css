@@ -9,37 +9,33 @@ font-family: sans-serif;
 }
 
 #sidebar {
-    background-color: #333333;
-    color: white;
-    width: 500px;
-    min-height: 100vh;
-    padding: 24px 3px 15px;
+background-color: #333333;
+color: white;
+width: 500px;
+min-height: 100vh;
+padding: 24px 3px 15px;
 
 }
 
-
 #sidebar.chapter {
-    font-weight: bolder;
-    padding-right: 100%;
+font-weight: bolder;
+padding-right: 100%;
 
 }
 
 #sidebar .edit {
-    color: orange;
-    font-style: italic;
+color: orange;
+font-style: italic;
 
 }
 
-
 #sidebar .chapter {
-    font-weight: bold;
-    font-size: 24px;
+font-weight: bold;
+font-size: 24px;
 }
 
 #sidebar .chapter.edit {
-    font-weight: bolder;
-    color: red
+font-weight: bolder;
+color: red
 
 }
-
-
