@@ -1,0 +1,14 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(73, 73, 255);
+}
+
+img {
+    box-shadow: 21px 25px 36px;
+
+}

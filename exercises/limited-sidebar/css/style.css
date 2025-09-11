@@ -13,27 +13,33 @@ font-family: sans-serif;
     color: white;
     width: 500px;
     min-height: 100vh;
-    padding: 24px;
+    padding: 24px 3px 15px;
+
 }
 
 
-.chapter {
+#sidebar.chapter {
     font-weight: bolder;
+    padding-right: 100%;
+
 }
 
-.edit {
-color: orange;
-font-style: italic;
+#sidebar .edit {
+    color: orange;
+    font-style: italic;
+
 }
 
 
-#chapter {
-font-weight: bold;
-font-size: 24px;
+#sidebar .chapter {
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.chapter.edit {
-color: red;
+#sidebar .chapter + .edit {
+    font-weight: bolder;
+    color: red
+
 }
 
 
