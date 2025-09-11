@@ -6,8 +6,13 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-color: rgb(73, 73, 255);
-    color: white;
 
+
+}
+
+#blog {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
 }
 
 img {
