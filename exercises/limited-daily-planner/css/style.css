@@ -5,17 +5,88 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+
+}
+
+#planner {
+    text-align: center;
+    padding-left: 200px;
+}
+
+.important {
+    font-weight: bolder;
+
+}
+
+.complete {
+    text-decoration: line-through;
+    display: inline-block;
+
 }
 
 .button {
     text-align: center;
+    display: inline-block;
     font-size: 40px;
-    background-color: rgb(150, 187, 255);
-    color: rgb(90, 98, 255);
-    border: 16px solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(94, 255, 0);
+    border: 5px solid;
     border-radius: 29px;
-    border-top-width: 109px;
-    margin: 37px 30px 150px;
+    margin: 23px 6px;
     min-width: 10px;
-    padding: 110px 160px 9px;
+    padding: 2px 3px 6px;
+    text-decoration-line: none;
+}
+
+#morning {
+    max-width: 1000px;
+    font-size: 37px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: blue
+
+}
+
+.morning {
+    max-width: 1000px;
+    font-size: 37px;
+    padding: 50px;
+    border-radius: 60px;
+    background-color: rgb(128, 134, 253);
+}
+
+#afternoon {
+    max-width: 1000px;
+    font-size: 37px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 72, 0)
+
+}
+
+.afternoon {
+    max-width: 1000px;
+    font-size: 37px;
+    padding: 50px;
+    border-radius: 60px;
+    background-color: rgb(255, 157, 0);
+}
+
+#evening {
+    max-width: 1000px;
+    font-size: 37px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(108, 0, 171)
+
+}
+
+.evening {
+    max-width: 1000px;
+    font-size: 37px;
+    padding: 50px;
+    border-radius: 60px;
+    background-color: rgb(222, 6, 255);
+}
+
 }
