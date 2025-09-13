@@ -1,0 +1,31 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    max-width: 800px;
+    margin: 36px auto;
+
+}
+
+.card {
+    border: 5px solid #0011ff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
