@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#single-column {
+    display: flex;
+}
+
+.image-container {
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    text-align: left;
+    margin: 36px 0px;
+}
+
+.text-container {
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    margin: 36px 0px;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+
+p {
+    letter-spacing: 2.4px;
+}
+
+#bottom-half {
+    display: inline-block;
+    text-align: center;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: 50;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    text-align: center;
+    margin: 36px 0px;
+}
