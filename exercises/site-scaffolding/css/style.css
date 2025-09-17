@@ -1,0 +1,52 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    background: linear-gradient(to bottom left,
+     rgb(255, 255, 255), 
+     rgb(86, 92, 217) 50%);
+    padding-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+#navbar .cta-button {
+    background-color: rgb(59, 41, 157);
+    border-radius: 55px;
+    min-width: 50px;
+    font-size: 18px;
+    text-decoration-line: none;
+    padding: 10px 17px
+}
+
+#navbar .subscribe-button {
+    font-size: 20px;
+    font-weight: bolder;
+    background: linear-gradient(red, maroon);
+    padding-right: 15px;
+    border-radius: 55px;
+    text-decoration-line: none;
+    padding: 20px 24px    
+}

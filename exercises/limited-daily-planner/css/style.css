@@ -15,12 +15,12 @@ body {
 
 .important {
     font-weight: bolder;
+    color: maroon
 
 }
 
 .complete {
     text-decoration: line-through;
-    display: inline-block;
 
 }
 

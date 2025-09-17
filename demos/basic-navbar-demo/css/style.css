@@ -1,0 +1,42 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    background: linear-gradient(to bottom left,
+     rgb(255, 183, 0), 
+     rgb(81, 0, 210) 80%);
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+#navbar .cta-button {
+    background-color: rgb(84, 0, 168);
+    border-radius: 55px;
+    min-width: 50px;
+    font-size: 20px;
+    text-decoration-line: none;
+    padding: 16px 24px
+}
+
+#navbar .cta-button:default {
+    background-color: rgb(84, 0, 168);
+    color: rgb(255, 255, 255);
+}
+
+#navbar .cta-button:hover {
+    background-color: rgb(255, 217, 0) 0.5s;
+    color: rgb(0, 0, 0) 0.5s;
+}
