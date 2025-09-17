@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -8,85 +8,84 @@ body {
 
 }
 
-#planner {
-    text-align: center;
-    padding-left: 200px;
-}
-
-.important {
-    font-weight: bolder;
-    color: maroon
-
-}
-
-.complete {
-    text-decoration: line-through;
-
-}
-
-.button {
-    text-align: center;
-    display: inline-block;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(94, 255, 0);
-    border: 5px solid;
-    border-radius: 29px;
-    margin: 23px 6px;
-    min-width: 10px;
-    padding: 2px 3px 6px;
+a {
     text-decoration-line: none;
 }
 
-#morning {
+#planner {
+    text-align: center;
+    padding-left: 50px;
     max-width: 1000px;
-    font-size: 37px;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: blue
+    font-size: 27px;
+}
 
+#morning-planner {
+    padding: 50px;
+    border-radius: 20px;
+    background-color: blue;
 }
 
 .morning {
-    max-width: 1000px;
-    font-size: 37px;
     padding: 50px;
     margin: 100px;
     border-radius: 60px;
     background-color: rgb(128, 134, 253);
 }
 
-#afternoon {
-    max-width: 1000px;
-    font-size: 37px;
-    padding: 30px;
+#afternoon-planner {
+    padding: 50px;
     border-radius: 20px;
-    background-color: rgb(255, 72, 0)
-
+    background-color: rgb(255, 72, 0);
 }
 
 .afternoon {
-    max-width: 1000px;
-    font-size: 37px;
     padding: 50px;
     margin: 100px;
     border-radius: 60px;
     background-color: rgb(255, 157, 0);
 }
 
-#evening {
-    max-width: 1000px;
-    font-size: 37px;
-    padding: 30px;
+#evening-planner {
+    padding: 50px;
     border-radius: 20px;
-    background-color: rgb(108, 0, 171)
-
+    background-color: rgb(108, 0, 171);
 }
 
 .evening {
     max-width: 1000px;
-    font-size: 37px;
+    font-size: 27px;
     padding: 50px;
     border-radius: 60px;
     background-color: rgb(222, 6, 255);
+}
+
+.important {
+    font-weight: bolder;
+    color: maroon;
+
+}
+
+.complete {
+    text-decoration: line-through;
+    color: black;
+
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(94, 255, 0);
+    border: 2px solid;
+    border-radius: 12px;
+    margin: 7px 6px;
+    min-width: 10px;
+    padding: 2px 3px 6px;
+    text-decoration-line: none;
+}
+
+.important.complete {
+    background-color: yellow;
+    color: maroon;
 }
