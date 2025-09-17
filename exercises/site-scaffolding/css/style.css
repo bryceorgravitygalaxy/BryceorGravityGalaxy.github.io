@@ -33,15 +33,6 @@ h4 {
     text-align: center;
 }
 
-#navbar .cta-button {
-    background-color: rgb(59, 41, 157);
-    border-radius: 55px;
-    min-width: 50px;
-    font-size: 18px;
-    text-decoration-line: none;
-    padding: 10px 17px
-}
-
 #navbar .subscribe-button {
     font-size: 20px;
     font-weight: bolder;
