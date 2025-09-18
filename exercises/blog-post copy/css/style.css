@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Tiny5&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(0, 42, 255);
+    ;
+
+}
+
+#main-content {
+    font-family: Tiny5;
+    font-size: 25px;
+    order: 1;
+    flex: 1;
+    border: 5px solid;
+    border-width: 15px;
+    border-color: rgb(255, 230, 0);
+    color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: linear-gradient(red, maroon);   
+}
+
+img {
+    box-shadow: 5px 25px 55px;
+
+}
+
+#two-columns {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Tiny5;
+}
+
+ul {
+    margin: 50px;
+    padding: 25px;
+    background: radial-gradient(rgb(230, 255, 1) 20%,rgb(255, 149, 0));
+    border: 3px solid;
+    border-color: rgb(255, 251, 0);
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    border-bottom: 1px solid;
+    font-family: Tiny5;
+    font-size: 25px;
+    text-decoration-line: none;
+    padding: 15px;
+}
+
+#sidebar-content {
+    background: radial-gradient(rgb(69, 69, 232), rgb(5, 26, 160));
+    flex: 1;
+    padding-left: 10px;
+    order: 2;
+}
+
+#sidebar-content h2 {
+    background-color: rgb(0, 153, 255);
+}
+
+sidebar-content li:last-child {
+    border-bottom: 0px;
+}
