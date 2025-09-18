@@ -45,6 +45,7 @@ img {
 
 ul {
     padding: 25px;
+    padding-right: 25px;
     background: radial-gradient(rgb(230, 255, 1) 20%,rgb(255, 149, 0));
     border: 3px solid;
     border-color: rgb(255, 251, 0);
@@ -67,8 +68,8 @@ h1 {
 
 #sidebar-content {
     background: radial-gradient(rgb(69, 69, 232), rgb(5, 26, 160));
-    flex: 2;
-    padding-left: 100px;
+    flex: 0.5;
+    padding-left: 50px;
     order: 2;
 }
 
