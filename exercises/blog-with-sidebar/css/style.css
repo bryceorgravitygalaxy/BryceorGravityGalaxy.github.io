@@ -61,6 +61,10 @@ li {
     padding: 15px;
 }
 
+h1 {
+    text-align: center;
+}
+
 #sidebar-content {
     background: radial-gradient(rgb(69, 69, 232), rgb(5, 26, 160));
     flex: 2;
