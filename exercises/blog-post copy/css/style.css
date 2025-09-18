@@ -37,7 +37,7 @@ img {
     display: flex;
 }
 
-h1 {
+#sidebar-content h1 {
     text-align: center;
     color: white;
     font-family: Tiny5;
@@ -63,8 +63,8 @@ li {
 
 #sidebar-content {
     background: radial-gradient(rgb(69, 69, 232), rgb(5, 26, 160));
-    flex: 1;
-    padding-left: 10px;
+    flex: 2;
+    padding-left: 100px;
     order: 2;
 }
 
