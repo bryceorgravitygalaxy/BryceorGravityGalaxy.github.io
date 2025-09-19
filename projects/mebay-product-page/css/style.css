@@ -15,6 +15,7 @@ body {
 .thumbnail-column {
     display: flex;
     width: 200px;
+    margin-right: 30px;
 }
 
 .thumbnail-column img {
@@ -23,9 +24,12 @@ body {
     display: inline-block;
 }
 
+.featured-image-column {
+    margin-right: 30px;
+}
+
 .featured-image-column img {
     width: 100%;
-    padding-right: 50px
 
 }
 
