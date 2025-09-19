@@ -21,6 +21,7 @@ body {
 
 .featured-image-column {
     display: flex;
+    padding: 50px;
 }
 
 .featured-image-column img {
