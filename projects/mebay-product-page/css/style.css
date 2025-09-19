@@ -7,6 +7,9 @@ body {
     font-family: sans-serif;
 }
 
+#layout {
+    display: flex;
+}
 
 .thumbnail-column {
     display: flex;
@@ -21,7 +24,6 @@ body {
 
 .featured-image-column {
     display: flex;
-    padding: 50px;
 }
 
 .featured-image-column img {
@@ -42,10 +44,16 @@ a {
 
 .buy-it-now {
     background-color: rgb(0, 110, 255);
+    border-radius: 50px;
+    border-width: 10px;
 }
 
 .buy-it-now a {
     color: white;
+    font-size: 20px;
     border-radius: 50px;
-    border-width: 50px;
+}
+
+.various-buttons {
+    font-size: 20px;
 }
