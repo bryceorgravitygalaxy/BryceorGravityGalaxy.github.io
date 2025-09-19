@@ -7,23 +7,16 @@ body {
     font-family: sans-serif;
 }
 
-#layout {
-    display: flex;
-}
 
-#thumbnail-column {
+.thumbnail-column {
     display: flex;
-}
-
-#thumbnail-column img {
-    width: 70px;
-    border-radius: 300px;
+    width: 100px;
 }
 
 .thumbnail-column img {
-    width: 90px;
+    width: 100%;
     border-radius: 200px;
-    display: block;
+    display: inline-block;
 }
 
 .featured-image-column {
@@ -31,8 +24,7 @@ body {
 }
 
 .featured-image-column img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
 }
 
 li {
@@ -43,8 +35,8 @@ a {
     color: black;
 }
 
-#product-info-column {
-    display: flex;
+.product-info-column {
+    width: 400px;
 }
 
 .buy-it-now {
