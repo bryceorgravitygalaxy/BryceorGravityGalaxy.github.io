@@ -47,10 +47,12 @@ a {
     display: flex;
 }
 
+.buy-it-now {
+    background-color: rgb(0, 110, 255);
+}
 
 .buy-it-now a {
     color: white;
-    background-color: rgb(0, 102, 255);
     border-radius: 50px;
     border-width: 50px;
 }
