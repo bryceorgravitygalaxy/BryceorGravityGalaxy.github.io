@@ -1,0 +1,83 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+
+#navbar {
+    display: flex;
+    background: linear-gradient(to bottom left,
+     rgb(133, 101, 72), 
+     rgb(49, 38, 30) 80%);
+    padding-top: 1%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 3px 2px 16px;
+}
+
+
+#navbar a {
+    font-family: Bradley Hand ITC;
+    text-decoration-line: none;
+    color: white
+}
+
+#centered-hero {
+    /* These four properties are essential for every hero! */
+    background-image: url(../images/pexels-wanderingpickle-3692056.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero h1 {
+    justify-content: center;
+    text-align: center;
+    padding-left: 144px;
+    color: rgb(255, 255, 255);
+    background-color: br;
+    font-family: Bradley Hand ITC;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.order-now {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    background: linear-gradient(rgb(163, 116, 89), rgb(60, 47, 36));
+    padding-right: 15px;
+    font-family: Bradley Hand ITC;
+    margin-left: 150px;
+    border-radius: 55px;
+    text-decoration-line: none;
+    padding: 20px 24px   
+
+}
+
+.book-class {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    background: linear-gradient(rgb(163, 116, 89), rgb(60, 47, 36));
+    padding-right: 15px;
+    margin-left: 150px;;
+    font-family: Bradley Hand ITC;
+    margin-left: 100px;
+    border-radius: 55px;
+    text-decoration-line: none;
+    padding: 20px 24px   
+}
+
