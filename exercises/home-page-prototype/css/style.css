@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -11,12 +11,9 @@ img {
     width: 200px;
 }
 
-
 #navbar {
     display: flex;
-    background: linear-gradient(to bottom left,
-     rgb(133, 101, 72), 
-     rgb(49, 38, 30) 80%);
+    background: linear-gradient (rgb(133, 101, 72), rgb(49, 38, 30) 80%);
     padding-top: 1%;
     justify-content: space-around;
     align-items: center;
@@ -24,11 +21,10 @@ img {
     box-shadow: 3px 2px 16px;
 }
 
-
 #navbar a {
     font-family: Bradley Hand ITC;
     text-decoration-line: none;
-    color: white
+    color: white;
 }
 
 #centered-hero {
@@ -63,7 +59,7 @@ img {
     margin-left: 70px;
     border-radius: 55px;
     text-decoration-line: none;
-    padding: 20px 24px   
+    padding: 20px 24px;
 
 }
 
@@ -73,11 +69,10 @@ img {
     color: white;
     background: linear-gradient(rgb(163, 116, 89), rgb(60, 47, 36));
     padding-right: 15px;
-    margin-left: 150px;;
+    margin-left: 150px;
     font-family: Bradley Hand ITC;
     margin-left: 20px;
     border-radius: 55px;
     text-decoration-line: none;
-    padding: 20px 24px   
+    padding: 20px 24px;
 }
-
