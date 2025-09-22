@@ -13,7 +13,7 @@ img {
 
 #navbar {
     display: flex;
-    background: linear-gradient (rgb(133, 101, 72), rgb(49, 38, 30) 80%);
+    background: linear-gradient(rgb(133, 101, 72), rgb(49, 38, 30) 80%);
     padding-top: 1%;
     justify-content: space-around;
     align-items: center;
