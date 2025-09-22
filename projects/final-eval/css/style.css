@@ -10,6 +10,7 @@ body {
 .light-outer-container {
     background-color: rgb(68, 0, 255);
     padding: 25px 35px 1000px;
+    text-align: center;
 }
 
 img {
@@ -23,15 +24,14 @@ span {
 
 .single-column {
     max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 50px 24px;
+    display: inline-block;
+    background-color: rgb(90, 90, 255);
 }
 
 .double-column {
     max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 50px 24px;
-    background-color: rgb(0, 255, 76)
+    display: inline-block;
+    background-color: rgb(255, 70, 70)
 }
