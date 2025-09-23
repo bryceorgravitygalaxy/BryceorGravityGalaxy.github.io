@@ -59,8 +59,16 @@ h1 {
     background: radial-gradient(rgb(156, 69, 232), rgb(21, 0, 255));
 }
 
-#info-more {
+#info-more h3 {
     background: radial-gradient(rgb(232, 85, 69), rgb(210, 2, 2));
+}
+
+p {
+    font-size: larger;
+    font-weight: bolder;
+    background: none;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #info-more {
