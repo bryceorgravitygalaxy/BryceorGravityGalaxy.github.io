@@ -9,7 +9,7 @@ body {
 
 h4 {
     font-family: Handelson One;
-    color: gold
+    color: gold;
 }
 
 h1 {
@@ -29,24 +29,19 @@ h3 {
 
 .light-outer-container {
     background: radial-gradient(rgb(255, 0, 0), rgb(13, 0, 255));
-    padding: 25px 35px 1000px;
+    padding: 25px 35px 100px;
     text-align: center;
 }
 
 img {
     width: 200px;
-    
-}
-
-span {
-    padding-left: 48px;
 }
 
 .single-column {
     max-width: 500px;
     padding: 50px 24px;
     display: inline-block;
-    background: linear-gradient(rgb(88, 88, 255), rgb(0, 0, 180))
+    background: linear-gradient(rgb(88, 88, 255), rgb(0, 0, 180));
 }
 
 h1 {
@@ -57,38 +52,32 @@ h1 {
     max-width: 500px;
     padding: 50px 24px;
     display: inline-block;
-    background: linear-gradient(rgb(255, 0, 0), rgb(168, 0, 0))
+    background: linear-gradient(rgb(255, 0, 0), rgb(168, 0, 0));
 }
 
 #info-content {
     background: radial-gradient(rgb(156, 69, 232), rgb(21, 0, 255));
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #info-more {
     background: radial-gradient(rgb(232, 85, 69), rgb(210, 2, 2));
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #info-more {
     background: radial-gradient(rgb(232, 85, 69), rgb(210, 2, 2));
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .cta-buttonyes {
     font-size: 16px;
     display: inline-block;
     font-family: Arial Black; 
-    color: rgb(255, 255, 255);
+    color: rgb(205, 184, 252);
     font-weight: bolder;
     background: linear-gradient(rgb(68, 0, 255), rgb(0, 5, 106));
-    margin-right: 500px;
+    margin-right: 100px;
     border-radius: 55px;
     text-decoration-line: none;
-    padding: 20px 24px;
+    padding: 20px;
 }
 
 .cta-buttonno {
@@ -98,8 +87,8 @@ h1 {
     color: rgb(134, 144, 235);
     font-weight: bolder;
     background: linear-gradient(rgb(68, 0, 255), rgb(0, 5, 106));
-    margin-left: 500px;
+    margin-left: 100px;
     border-radius: 55px;
     text-decoration-line: none;
-    padding: 20px 24px;  
+    padding: 20px;  
 }
