@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#background-image {
+    background-image: url(../images/banana\ background.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.background-content h1 {
+    text-align: center;
+    margin: 100;
+    padding-top: 500px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#layout h2 {
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+#layout {
+    max-width: 800px;
+    margin: 28px auto;
+    text-align: center;
+}
+
+.fruit-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.fruit-gallery img {
+    height: 150px;
+    flex: 1;
+    object-fit: cover;
+    border: 10px solid;
+    border-color: chartreuse;
+    
+}
