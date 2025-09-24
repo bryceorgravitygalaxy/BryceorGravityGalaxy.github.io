@@ -4,38 +4,50 @@
 
 body {
     margin: 0px;
-    font-family: Tiny5;
 }
 
 h4 {
     font-family: Handelson One;
-    color: gold;
+    color: rgb(255, 255, 255);
     font-size: 26px;
 }
 
 h1 {
     font-family: Arial Black;
-    color: yellow;
+    color: rgb(172, 191, 255);
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gold;
+    color: rgb(255, 255, 255);
 }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gold;
+    color: rgb(255, 255, 255);
 }
 
 .light-outer-container {
-    background: radial-gradient(rgb(255, 0, 0), rgb(13, 0, 255));
     padding: 25px 35px 100px;
     text-align: center;
+    align-items: center;
+    justify-content: center center;
+    background: linear-gradient(rgb(99, 99, 233), rgb(2, 0, 70));
 }
 
 img {
     width: 200px;
+}
+
+#inner-column {
+
+    background-image: url(../images/478242451.jpg);
+    border: 5px solid;
+    margin-left: 215px;
+    align-items: center;
+    justify-content: center center;
+    max-width: 800px;
+    border-color: rgb(140, 106, 255)
 }
 
 .single-column {
@@ -57,23 +69,23 @@ h1 {
 }
 
 #info-content {
-    background: radial-gradient(rgb(156, 69, 232), rgb(21, 0, 255));
+    background: radial-gradient(rgb(90, 71, 255), rgba(21, 0, 255, 0) 70%);
 }
 
 #info-more h3 {
-    background: radial-gradient(rgb(232, 85, 69), rgb(210, 2, 2));
+    background: radial-gradient(rgb(255, 124, 124), rgba(253, 0, 0, 0));
 }
 
 p {
     font-size: larger;
     font-weight: bolder;
     background: none;
-    color: yellow;
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #info-more {
-    background: radial-gradient(rgb(232, 85, 69), rgb(210, 2, 2));
+    background: radial-gradient(rgb(58, 66, 229) 15%, rgba(210, 2, 2, 0) 75%);
 }
 
 .cta-buttonyes {
