@@ -50,6 +50,7 @@ body {
     height: 150px;
     width: 100%;
     flex: 1;
+    display: grid;
     object-fit: cover;
     border: 10px solid;
     border-color: chartreuse;
