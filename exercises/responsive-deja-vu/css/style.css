@@ -41,13 +41,13 @@ body {
 }
 
 .fruit-gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
 }
 
 .fruit-gallery img {
-    height: 150px;
+    height: 250px;
     width: 100%;
     flex: 1;
     display: grid;
@@ -92,8 +92,8 @@ body {
             font-size: 17px;
         }
 
-
-        .fruit-gallery img {
+        .fruit-gallery {
             grid-template-columns: 1fr;
         }
+
 }
