@@ -7,19 +7,6 @@ body {
     font-family: sans-serif;
 }
 
-#nav {
-    background: linear-gradient(rgb(255, 162, 0), rgb(150, 95, 0));
-    display: flex;
-    justify-content: center;
-}
-
-#nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
-}
-
 #background-image {
     background-image: url(../images/banana\ background.png);
     height: 100vh;
@@ -61,9 +48,51 @@ body {
 
 .fruit-gallery img {
     height: 150px;
+    width: 100%;
     flex: 1;
     object-fit: cover;
     border: 10px solid;
     border-color: chartreuse;
     
+}
+
+#navbar {
+    background: linear-gradient(rgb(255, 162, 0), rgb(150, 95, 0));
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 588px) {
+    /*body {
+        background-color: blue;
+    }*/
+
+        .background-content h1 {
+            text-align: center;
+            margin: 100;
+            padding-top: 400px;
+            font-size: 40px;
+}
+
+        #navbar {
+            flex-direction: column;
+            text-align: center;
+        }    
+
+        #navbar a {
+            font-size: 17px;
+        }
+
+
+        .fruit-gallery img {
+            grid-template-columns: 1fr;
+        }
 }

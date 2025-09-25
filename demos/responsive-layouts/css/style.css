@@ -1,0 +1,60 @@
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav {
+    background: linear-gradient(black, rgb(66, 66, 66));
+    display: flex;
+    justify-content: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+#basic-grid-gallery img {
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    /*body {
+        background-color: blue;
+    }*/
+        #single-column-layout a {
+            font-size: 44px;
+        }
+
+    #basic-grid-gallery {
+        grid-template-columns: 1fr;
+}
+}
+
+/* Mobile Breakpoint */
+@media screen and (max-width: 450px) {
+    /*body {
+        background-color: rgb(255, 0, 230);
+    }*/    
+
+    #nav {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #single-column-layout h1 {
+        font-size: 32px;
+    }
+}
