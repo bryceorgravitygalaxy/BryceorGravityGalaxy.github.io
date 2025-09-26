@@ -26,10 +26,14 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 64px;
     margin: 64px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35px
 }
 
 .portfolio img {
     height: 250px;
+    max-width: 283px;
     width: 100%;
     flex: 1;
     display: grid;
