@@ -23,8 +23,17 @@ body {
 
 .portfolio {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
-    align-items: center;
-    justify-content: center;
+}
+
+.portfolio img {
+    height: 250px;
+    width: 100%;
+    flex: 1;
+    display: grid;
+    object-fit: cover;
+    border: 10px solid;
+    border-color: silver;
 }
 
