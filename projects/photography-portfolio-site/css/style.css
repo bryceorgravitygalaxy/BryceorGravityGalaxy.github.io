@@ -11,14 +11,37 @@ body {
 
 #navbar {
     font-family: Knewave;
-    background-image: url(../images/sidewalk\ hero.png);
+    background: linear-gradient(rgb(8, 8, 8), rgb(47, 47, 47));
     display: flex;
     justify-content: space-between;
 }
 
-#navbar h1, p {
+#navbar a {
     color: white;
-    display: inline-block;
+    display: inline;
+    text-decoration: none;
+}
+
+.hero img {
+    width: 100%;
+    
+}
+
+.hero {
+    /* These four properties are essential for every hero! */
+    background-image: url(../images/stars-on-velvet.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: Knewave;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    flex-wrap: wrap;
 }
 
 .portfolio {
@@ -26,14 +49,13 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 64px;
     margin: 64px;
+    padding: auto;
     align-items: center;
     justify-content: center;
-    padding-left: 165px
 }
 
 .portfolio img {
     height: 250px;
-    max-width: 283px;
     width: 100%;
     flex: 1;
     display: grid;
