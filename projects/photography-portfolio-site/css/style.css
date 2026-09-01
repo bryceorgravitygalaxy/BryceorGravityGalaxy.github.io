@@ -59,6 +59,31 @@ body {
     display: grid;
     object-fit: cover;
     border: 4px solid;
-    border-color: silver;
+    border-color: rgb(48, 48, 48);
 }
 
+@media screen and (max-width: 588px) {
+    /*body {
+        background-color: blue;
+    }*/
+
+        .navbar h2 {
+            text-align: center;
+            margin: 100;
+            padding-top: 400px;
+            font-size: 15px;
+}
+
+        #navbar {
+            flex-direction: column;
+            text-align: center;
+        }    
+
+        #navbar a {
+            font-size: 12px;
+        }
+
+        .portfolio {
+            grid-template-columns: 1fr;
+        }
+}
